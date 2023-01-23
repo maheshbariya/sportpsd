@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    display: flex;
+}
+.jsc{
+    justify-content: space-between;
+}
+.sec-one{
+    background: url(./img/lady\ golfer.jpg);
+    background-size: cover;
+    height: 800px;
+}
+.logo img{
+    width: 10%;
+}
+.nav-bar{
+    background-color: transparent;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+}
+.link ul li{
+    list-style: none;
+    padding:0 30px ;
+}
+.li{
+    line-height: 4rem;
+}
+.head h2{
+    font-size: 30px;
+    color: #fff;
+}
+.head h1{
+    font-size: 60px;
+
+}
+.head h1 span{
+    color: green;
+}
+.head{
+    padding: 11rem 0 0 31rem;
+}
+.head input{
+    padding: 0.3rem 2.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: green;
+    border: none;
+    font-weight: 600;
+}
+.head input:hover{
+    color: green;
+    background-color: #fff;
+    transition: 1s;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.left-side img{
+    width: 60%;
+    padding: 2rem 1rem;
+}
+.col-50{
+    width: 50%;
+}
+/* section-two */
+.sec-two{
+    background-color: rgb(232, 230, 230);
+}
+.right-side{
+    width: 40%;
+    padding: 5rem 0 0 0;
+}
+.right-side h1{
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+    /* color: #fff; */
+}
+.right-side p{
+    padding: 1rem 0 0 0;
+    /* color: #fff; */
+}
+.right-side h1 span{
+    color: green;
+}
+.right-side h2{
+    font-family: 'Caramel', cursive;
+    padding: 5rem 0 0 5rem;
+    font-size: 3rem;
+}
+/* section-three */
+.sec-three{
+    background: url(./img/back\ ground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-3{
+    width: 90%;
+    margin: 0 auto;
+}
+.h1 h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem 0 4rem 0;
+    color: white;
+}
+.icn i {
+    font-size: 5rem;
+    padding:  0 0 0 4rem;
+    color: #fff;
+}
+.cart-4{
+    background-color: green;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.cart-4 h1{
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+}
+.cart-4 p{
+    text-align: center;
+    color: #fff;
+}
+.h1 span{
+    color: rgb(35, 120, 35);
+}
+.page-3{
+    padding: 0 0 5rem 0;
+}
+/* section-four */
+.sec-four{
+    background-color:  #daf1d8;
+}
+.col-30{
+    width: 32%;
+}
+.img-1 img{
+    width: 100%;
+    height: 20rem;
+    padding: 1rem 0 0 0;
+    opacity: 0.8;
+}
+.page-4{
+    width: 90%;
+    margin: 0 auto;
+}
+.h2 h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 4rem 0 2rem 0;
+    color: #222;
+}
+.h2 span{
+    color: rgb(35, 120, 35);
+}
+.page-4{
+    padding: 0 0 4rem 0;
+}
+/* section-five */
+.sec-five{
+    background: url(./img/tenis\ ball.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icn-2 i{
+    font-size: 4rem;
+    color: #fff;
+    padding: 4rem 0 0 41rem;
+}
+.h3 h1{
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+}
+.h3 h3{
+    text-align: center;
+    color: #fff;
+}
+.h3 p{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 1rem 0 3rem 0;
+    color: #fff;
+}
+/* container-six */
+.sec-six{
+    background: url(./img/golf\ back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.coach img{
+    width: 100%;
+    padding: 1.5rem;
+}
+.coach{
+    background: #fff;
+    border-radius: 1rem;
+}
+.coach h1{
+    text-align: center;
+    /* color: #fff; */
+    padding: 0 0 0.6rem 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.coach h3{
+    text-align: center;
+    /* color: #fff; */
+    padding: 0 0 1rem 0;
+    font-weight: 600;
+}
+.coach-1{
+    padding: 2rem 0 4rem 0;
+}
+/* section-seven */
+.sec-seven{
+    background: url(./img/lady\ golfer\ back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h4 h1{
+    text-align: center;
+    color: #fff;
+    padding: 0 0 1rem 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.h4 h1 span{
+    color: green;
+}
+.h4{
+    padding: 4rem 0 1rem 0;
+}
+.p p{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.coment{
+    padding: 5rem 0;
+}
+.p{
+    /* background-color: #daf1d8; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.piople img{
+    width: 40%;
+    border-radius: 100%;
+    display: inline;
+    padding: 1rem;
+}
+.piople{
+    width: 20%;
+    margin:0 auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+.piople h2{
+    padding: 2rem 2rem 0 0rem;
+}
+/* section-eight */
+.sec-eight{
+    background: url(./img/bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h7 h1{
+    text-align: center;
+    color: #fff;
+    padding: 5rem 0 1rem 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.h7 h1 span{
+    color: green;
+}
+.news img{
+    width: 100%;
+    /* padding: 1.5rem; */
+}
+.news{
+    /* background: #fff; */
+    border-radius: 1rem;
+}
+.news h1{
+    text-align: center;
+    color: #fff;
+    padding: 0 0 0.6rem 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.news h3{
+    text-align: center;
+    color: #fff;
+    padding: 0 0 1rem 0;
+    font-weight: 600;
+}
+.news-1{
+    padding: 2rem 0 4rem 0;
+}
